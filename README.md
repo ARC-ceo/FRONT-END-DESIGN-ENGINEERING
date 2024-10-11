@@ -1,4 +1,4 @@
-# FRONT-END-DESIGN-ENGINEERING
+Arthur Ribeiro Algate - RM560109 | Rafael Nonato - RM 560634 | Carlos Santiago - RM 561187
 ACR - Projeto de Alerta de Superlotação em Parceria com a CCR
 Bem-vindo ao repositório oficial da ACR! Este projeto faz parte da nossa colaboração com a CCR para desenvolver uma solução inovadora de alerta de superlotação e melhora do fluxo de pessoas  nos transportes públicos. Nosso objetivo é melhorar a experiência dos passageiros, reduzindo o tempo de espera e garantindo maior segurança e conforto.
 
