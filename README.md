@@ -16,3 +16,4 @@ Coisas a fazer na Sprint 2:
 
 - adicionar o JS, formatação e texto da página Downloads.
 - adicionar funcionalidade para a barra de pesquisa.
+- fazer a documentação do projeto
