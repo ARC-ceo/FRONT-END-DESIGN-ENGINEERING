@@ -1,0 +1,434 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #020D13;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Logo */
+header .logo img {
+    max-height: 50px;
+}
+
+/* Menu de Navegação */
+.menuNav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menuNav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menuNav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menuNav ul li img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.menuNav ul li a:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #333;
+}
+
+/* Banner */
+.banner, .contato-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img, .contato-banner img {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Introdução */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Soluções */
+.solucoes {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.solucoes h2 {
+    font-size: 24px;
+    color: #020D13;
+    margin-bottom: 20px;
+}
+
+.solucoes-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.solucao-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.solucao-item:hover {
+    transform: scale(1.05);
+}
+
+.solucao-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #020D13;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo do Rodapé */
+.footer-logo img {
+    max-height: 50px;
+    margin-bottom: 15px;
+}
+
+/* Menu de Navegação no Rodapé */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-nav ul li img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.footer-nav ul li a:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.redes-sociais a img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.redes-sociais a:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.endereco {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Seção Sobre Nós */
+.sobre-nos {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-nos h1 {
+    font-size: 2.5rem;
+    color: #020D13;
+    margin-bottom: 10px;
+}
+
+.sobre-nos h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sobre-nos ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.sobre-nos ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Seção de Integrantes */
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.titulo-pagina {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.foto-integrante {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.info p {
+    color: #555;
+}
+
+.links a {
+    text-decoration: none;
+    color: #0073b1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #005582;
+}
+
+/* Responsividade */
+
+/* Tela maior que 1920px */
+@media (min-width: 1920px) {
+    .solucao-item {
+        width: 300px;
+    }
+}
+
+/* Tela entre 998px e 1920px */
+@media (max-width: 1920px) and (min-width: 998px) {
+    .menuNav ul {
+        gap: 40px;
+    }
+}
+
+/* Tela entre 768px e 998px */
+@media (max-width: 998px) and (min-width: 768px) {
+    .menuNav ul {
+        gap: 20px;
+    }
+    .solucoes h2 {
+        font-size: 22px;
+    }
+}
+
+/* Tela entre 600px e 768px */
+@media (max-width: 768px) and (min-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    .menuNav {
+        margin-top: 10px;
+    }
+    .intro h1 {
+        font-size: 28px;
+    }
+    .solucao-item {
+        width: 180px;
+    }
+}
+
+/* Tela menor que 600px */
+@media (max-width: 600px) {
+    header {
+        display:block;
+        flex-direction: row;
+    }
+    .menuNav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .integrantes {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .solucoes-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+/* Tela menor que 300px */
+@media (max-width: 300px) {
+    .menuNav ul {
+        gap: 5px;
+    }
+    .search-bar input[type="text"] {
+        font-size: 12px;
+    }
+}
+
+/* Ajuste global para ícones de navegação */
+.menuNav ul li img,
+.footer-nav ul li img {
+    width: 24px; /* Ajuste uniforme para todos os ícones */
+    height: 24px;
+    object-fit: contain;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Ajuste do tamanho de ícones específicos */
+.menuNav ul li a img[alt="Integrantes"],
+.footer-nav ul li a img[alt="Integrantes"] {
+    width: 24px; /* Certificando que o ícone de "Integrantes" tem o mesmo tamanho */
+    height: 24px;
+}
