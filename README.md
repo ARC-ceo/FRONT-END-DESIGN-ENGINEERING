@@ -9,3 +9,10 @@ Tecnologias Utilizadas:
 Integração de IA: Algoritmos de detecção e previsão de superlotação
 Plataforma de Dados: Sensores e câmeras de monitoramento
 Conectividade: Integração com rede Wi-Fi para coleta de dados via aplicativo. 
+
+---------------------------
+Coisas a fazer na Sprint 2:
+---------------------------
+
+- adicionar o JS, formatação e texto da página Downloads.
+- adicionar funcionalidade para a barra de pesquisa.
