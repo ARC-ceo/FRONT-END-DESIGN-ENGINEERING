@@ -340,6 +340,26 @@ footer {
     color: #005582;
 }
 
+/* Página de Pesquisa */
+
+.pesquisar{
+    height:300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;    
+}
+
+/* Página de Downloads */
+
+.downloads{
+    height:300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;    
+}
+
 /* Responsividade */
 
 /* Tela maior que 1920px */
