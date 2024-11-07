@@ -18,4 +18,4 @@ Tecnologias Utilizadas:
 - Plataforma de Dados: Sensores e câmeras de monitoramento
 - Conectividade: Integração com rede Wi-Fi para coleta de dados via aplicativo.
 
-- PARA DOCUMENTAÇÃO DA SPRINT 2, É NECESSÁRIO ACESSAR O README DENTRO DA PASTA Sprint2FrontEnd ou clicando aqui: https://github.com/ARC-ceo/FRONT-END-DESIGN-ENGINEERING/tree/main/Sprint2FrontEnd.
+PARA DOCUMENTAÇÃO DA SPRINT 2, É NECESSÁRIO ACESSAR O README DENTRO DA PASTA Sprint2FrontEnd ou clicando aqui: https://github.com/ARC-ceo/FRONT-END-DESIGN-ENGINEERING/tree/main/Sprint2FrontEnd.
