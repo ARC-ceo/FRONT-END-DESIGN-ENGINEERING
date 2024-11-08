@@ -2,7 +2,7 @@
 Front-End
 ---------
 
-- Arthur Ribeiro Algate - RM560109
+- Arthur Ribeiro Algate - RM 560109
 - Rafael Nonato - RM 560634
 - Carlos Santiago - RM 561187
 
