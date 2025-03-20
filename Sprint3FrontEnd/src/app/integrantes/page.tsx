@@ -12,7 +12,6 @@ const IntegrantesPage = () => {
       <div className="integrantes-container">
         <h1 className="main-title">ViaMobility</h1>
         
-        {/* Seção dos Integrantes */}
         <div className="members-section">
           <div className="member-card">
             <div className="member-header">
@@ -53,7 +52,6 @@ const IntegrantesPage = () => {
         <Link href='/'><Botao texto='Retornar'/></Link>
         
 
-        {/* Footer */}
         <footer className="members-footer">
           <p>© Todos os direitos reservados - Grupo ARC</p>
         </footer>

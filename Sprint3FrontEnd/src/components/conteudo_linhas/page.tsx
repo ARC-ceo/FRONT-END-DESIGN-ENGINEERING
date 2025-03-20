@@ -131,7 +131,6 @@ const LinhasStatus: React.FC = () => {
         capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
         empresaAdmin: '/empresa_metro_icone.png'
     },
-    // aqui podemos botar mais linhas seguindo o mesmo padrão pra cada linha, basta copiar o codigo acima e adaptar
   ];
 
   const toggleExpandir = (id: number) => {
@@ -175,7 +174,6 @@ const LinhasStatus: React.FC = () => {
                 <div className="proximo-trem">
                   <h3>Próximo metrô (em 15 minutos)</h3>
                   <div className="trem-container">
-                    {/* Espaço para a imagem do trem */}
                     <img 
                       src="/grupo_trem.png" 
                       alt="Composição do trem" 

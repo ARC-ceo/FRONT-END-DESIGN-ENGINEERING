@@ -11,7 +11,6 @@ import '@/app/globals.css';
 const ProfileScreen = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Declare o estado do user primeiro
   const [user, setUser] = useState<UserProfile>({
     id: '1',
     profileImage: '/icone_usuario.png',
@@ -22,7 +21,6 @@ const ProfileScreen = () => {
     isEmailVerified: true
   });
 
-  // Agora use o user.profileImage como valor inicial
   const [profileImage, setProfileImage] = useState(user.profileImage);
 
   const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -34,7 +32,6 @@ const ProfileScreen = () => {
           if (event.target?.result) {
             const newImage = event.target.result.toString();
             setProfileImage(newImage);
-            // Atualize também o estado do user se necessário
             setUser(prev => ({ ...prev, profileImage: newImage }));
           }
         };
@@ -52,7 +49,6 @@ const ProfileScreen = () => {
 
   return (
     <div className="profile-container">
-      {/* Input de arquivo oculto */}
       <input
         type="file"
         accept="image/*"
@@ -61,7 +57,6 @@ const ProfileScreen = () => {
         className="hidden"
       />
 
-      {/* Seção do avatar */}
       <div className="avatar-section">
         <div className="avatar-container">
           <div className="avatar-image-wrapper">
@@ -83,20 +78,19 @@ const ProfileScreen = () => {
         </div>
       </div>
 
-      {/* Formulário do perfil */}
       <div className="profile-form">
         <ProfileField
           label="Nome"
           type="text"
           value={user.firstName}
-          editable={false} // Desativa a edição
+          editable={false}
         />
 
         <ProfileField
           label="Sobrenome"
           type="text"
           value={user.lastName}
-          editable={false} // Desativa a edição
+          editable={false}
         />
 
         <ProfileField
@@ -104,7 +98,7 @@ const ProfileScreen = () => {
           type="phone"
           value={user.phone}
           actionLabel="Alterar"
-          actionPath="/tela_atualizar_telefone" // Caminho direto
+          actionPath="/tela_atualizar_telefone"
         />
 
         <ProfileField
@@ -125,7 +119,6 @@ const ProfileScreen = () => {
         />
       </div>
 
-      {/* excluir conta */}
       <div className="delete-section">
         <Link href="/excluir_conta"><button
           type="button"

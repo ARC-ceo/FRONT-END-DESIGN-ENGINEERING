@@ -9,7 +9,6 @@ const PasswordConfirmationScreen = () => {
   return (
 
     <main className="confirmation-screen">
-      {/* Conteúdo principal */}
       <div className="confirmation-content">
         <TituloAzul texto="Sua senha foi atualizada com sucesso!"/>
         
@@ -19,7 +18,6 @@ const PasswordConfirmationScreen = () => {
 
         <div className="divider-line"></div>
 
-        {/* Botão de Login */}
         <Link href="/credenciais"><Botao texto="Login"></Botao></Link>
       </div>
     </main>

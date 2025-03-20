@@ -41,7 +41,6 @@ const MainContent: React.FC = () => {
 
   return (
     <div className="main-content">
-      {/* Seção de Favoritos */}
       <div className="section-box">
         <h2 className="section-title">Favoritos</h2>
         {favorites.map((item, index) => (
@@ -64,7 +63,6 @@ const MainContent: React.FC = () => {
         ))}
       </div>
 
-      {/* Seção de Recentes */}
       <div className="section-box recent-box">
         <h2 className="section-title">Recentes</h2>
         {recents.map((item, index) => (

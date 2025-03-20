@@ -2,8 +2,8 @@ import React from "react"
 import "./comp.page.css"
 
 
-type BotaoProps = { // criando a tipagem em TS
-    texto?: string; // variável texto, do tipo string, '?' deixa a propriedade opcional, caso contrário ela é OBRIGATÓRIA
+type BotaoProps = {
+    texto?: string;
     cor?: string;
     clicado?: () => void;
 }

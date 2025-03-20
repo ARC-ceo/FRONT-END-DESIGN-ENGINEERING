@@ -18,23 +18,18 @@ const StationItem = ({
 }: StationItemProps) => {
   return (
     <div className="station-item">
-      {/* Indicador da Linha */}
       <div className="line-indicator" style={{ backgroundColor: lineColor }}></div>
 
-      {/* Conteúdo Principal */}
       <div className="station-content">
-        {/* Número da Linha */}
         <div className="line-number" style={{ backgroundColor: lineColor }}>
           {lineNumber}
         </div>
 
-        {/* Detalhes da Estação */}
         <div className="station-details">
           <h3 className="station-name">{stationName}</h3>
           <span className="time">{time}</span>
         </div>
 
-        {/* Botão de Trajeto */}
         <button 
           onClick={onShowRoute} 
           className="route-button"

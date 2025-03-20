@@ -44,7 +44,7 @@ const MainPage = () => {
         </div>
       </div>
 
-      <Navegacao /> {/* Footer fora do fluxo principal */}
+      <Navegacao /> 
     </div>
   );
 };

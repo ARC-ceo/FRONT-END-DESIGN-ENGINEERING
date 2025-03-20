@@ -6,13 +6,11 @@ import Link from 'next/link';
 const DeleteAccountScreen = () => {
   const handleDeleteAccount = () => {
     console.log('Conta excluída');
-    // Lógica de exclusão de conta aqui
   };
 
   return (
     <main className="delete-account-screen">    
 
-      {/* Conteúdo principal */}
       <div className="confirmation-content">
         <h1 className="confirmation-title">
           Tem certeza que deseja excluir sua conta?
@@ -24,7 +22,6 @@ const DeleteAccountScreen = () => {
 
         <div className="divider-line"></div>
 
-        {/* Botões de ação */}
         <Link href="/"><button 
           onClick={handleDeleteAccount}
           className="delete-confirm-button"
