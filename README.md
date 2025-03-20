@@ -12,10 +12,7 @@ Bem-vindo ao repositório oficial da ARC! Este projeto faz parte da nossa colabo
 - Sobre o Projeto
 O sistema utiliza uma combinação de câmeras, sensores e dados em tempo real captados via aplicativo para monitorar o fluxo de passageiros nas plataformas e dentro dos trens. Além disso, integra-se com a rede Wi-Fi das estações para coletar informações dos smartphones conectados. Quando um risco de superlotação é identificado, alertas são emitidos, permitindo uma melhor gestão da operação.
 
-Tecnologias Utilizadas:
 
-- Integração de IA: Algoritmos de detecção e previsão de superlotação
-- Plataforma de Dados: Sensores e câmeras de monitoramento
-- Conectividade: Integração com rede Wi-Fi para coleta de dados via aplicativo.
+Documentação das Sprints:
 
-PARA DOCUMENTAÇÃO DA SPRINT 2, É NECESSÁRIO ACESSAR O README DENTRO DA PASTA Sprint2FrontEnd ou clicando aqui: https://github.com/ARC-ceo/FRONT-END-DESIGN-ENGINEERING/tree/main/Sprint2FrontEnd.
+Sprint 3: A pasta Sprint3Webview contém a implementação da interface webview, responsável por integrar o frontend à aplicação móvel nativa. Esta abordagem permite reutilização de código, atualizações dinâmicas e uma experiência unificada entre plataformas.

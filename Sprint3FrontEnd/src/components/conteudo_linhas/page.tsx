@@ -57,7 +57,7 @@ const LinhasStatus: React.FC = () => {
         cor: 'lilas',
         status: 'Operação Normal',
         capacidade: { muitaLotacao: '1', mediaLotacao: '2 e 3', baixaLotacao: '4 e 5' },
-        empresaAdmin: '/viamobilidade.png'
+        empresaAdmin: '/Linha_Lilas_Viamobilidade.png'
     },
     { 
         id: 7,
