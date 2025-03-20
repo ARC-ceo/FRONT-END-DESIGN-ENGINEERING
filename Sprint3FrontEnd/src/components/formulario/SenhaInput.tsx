@@ -8,16 +8,16 @@ interface SenhaInputProps {
 const SenhaInput: React.FC<SenhaInputProps> = ({ value, onChange }) => {
   return (
     <div className="form-group">
-      <label htmlFor="senha" className="block text-sm font-medium text-gray-700">
+      <label htmlFor="senha" className="block text-sm font-medium">
         Senha
       </label>
       <input
         type="password"
         id="senha"
         name="senha"
-        value={value}
+        value={"123456"}
         onChange={onChange}
-        className="block w-full p-2 pl-10 text-sm text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
+        className="block w-full p-2 pl-10 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
       />
     </div>
   );

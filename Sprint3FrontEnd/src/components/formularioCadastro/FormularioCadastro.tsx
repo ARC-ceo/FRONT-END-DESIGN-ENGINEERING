@@ -28,7 +28,7 @@ const FormularioCadastro = () => {
       <EmailInput value={email} onChange={(event) => setEmail(event.target.value)} />
       <SenhaInput value={senha} onChange={(event) => setSenha(event.target.value)} />
       <ConfirmarSenhaInput value={confirmarSenha} onChange={(event) => setConfirmarSenha(event.target.value)} />
-      <Link href="/verificacao"><Botao texto="Criar Conta">
+      <Link href="/"><Botao texto="Criar Conta">
       </Botao></Link>
     </form>
   );

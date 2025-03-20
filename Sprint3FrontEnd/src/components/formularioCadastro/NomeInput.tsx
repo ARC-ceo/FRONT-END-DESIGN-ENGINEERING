@@ -8,7 +8,7 @@ interface NomeInputProps {
 const NomeInput: React.FC<NomeInputProps> = ({ value, onChange }) => {
   return (
     <div className="form-group">
-      <label htmlFor="nome" className="block text-sm font-medium text-gray-700">
+      <label htmlFor="nome" className="block text-sm font-medium">
         Nome
       </label>
       <input

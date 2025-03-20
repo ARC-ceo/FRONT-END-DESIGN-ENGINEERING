@@ -74,7 +74,9 @@ body {
 }
 
 .content {
+  position: relative;
   padding-bottom: 80px; /* Espaço para o footer */
+  margin-bottom: 60px;
   flex: 1;
   background: rgb(1, 34, 94);
 }

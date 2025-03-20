@@ -8,7 +8,7 @@ interface ConfirmarSenhaInputProps {
 const ConfirmarSenhaInput: React.FC<ConfirmarSenhaInputProps> = ({ value, onChange }) => {
   return (
     <div className="form-group">
-      <label htmlFor="confirmar-senha" className="block text-sm font-medium text-gray-700">
+      <label htmlFor="confirmar-senha" className="block text-sm font-medium">
         Confirmar Senha
       </label>
       <input
